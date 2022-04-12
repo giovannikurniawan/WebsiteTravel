@@ -29,5 +29,60 @@ section {
 }
 
 .navbar {
+    background-color: wheat;
+}
+
+.navbar .navbar-wrapper {
     background-color: violet;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.navbar-wrapper .logo {
+    font-size: 2.8rem;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.navbar-wrapper .logo span {
+    font-size: 1.8rem;
+    color: var(--second-color);
+}
+
+.navbar-wrapper .menu-wrapper {
+    display: flex;
+    gap: 50px;
+    background-color: whitesmoke;
+}
+
+.navbar-wrapper .menu-wrapper .menu {
+    display: flex;
+    gap: 50px;
+    background-color: yellowgreen;
+    align-items: center;
+}
+
+.menu-wrapper .menu-link {
+    font-family: var(--heading-font);
+    font-size: 1.25rem;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.menu-wrapper .menu-link.active {
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+.menu-wrapper .btn-member {
+    font-family: var(--heading-font);
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--second-color);
+    padding: 25px 30px;
+    border-radius: 50px;
 }
