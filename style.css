@@ -86,3 +86,24 @@ section {
     padding: 25px 30px;
     border-radius: 50px;
 }
+
+@media screen and (max-width: 991px) {
+    .navbar-wrapper .menu-wrapper .menu {
+        gap: 50px;
+    }
+    .menu-wrapper .menu-link {
+        font-size: 1rem;
+    }
+    .menu-wrapper .btn-member {
+        padding: 25px 20px;
+    }
+    .navbar .navbar-wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-wrapper .menu-wrapper .menu {
+        gap: 20px;
+    }
+}
